@@ -17,40 +17,49 @@
 		<header>
 			<nav>
 				<div class="nav-container">
-			        <a href="index.html">
-			            <img id="logo" src="img/logo.png" alt="JobFinder">
-			        </a>
+					<a href="index.html"> <!--adicionando link de html-->
+						<img id="logo" src="img/Colégio Cristão Doce Amor.jpg" alt="Colégio Cristão Doce Amor"> <!--adicionando logo-->
+					</a>
 					<i class="fas fa-bars btn-menumobile"></i>
 					<ul>
-						<li><a href="findjobs.html">Encontrar vaga</a></li>
-						<li><a href="sendjobs.html">Enviar vaga</a></li>
-						<li><a href="#">Contato</a></li>
+						<li><a href="Sobre.html">Sobre</a></li> <!--adicionando link de html-->
+						<li><a href="Matriculas.html">Matriculas</a></li> <!--adicionando link de html-->
+						<li><a href="https://api.whatsapp.com/send?phone=559288237010">Contato</a></li> <!--adicionando link de html-->
 					</ul>
 				</div>
 			</nav>
 		</header>
-		<main id="sendjobs-container" class="wrapper">
-			<h1>Preencha os dados da vaga</h1>
+
+
+
+
+
+
+
+
+
+		<main id="sendjobs-container" class="wrapper"> <!--adicionando form-->
+			<h1>Preencha seus dados</h1>
 			<div class="input-box">
-				<label>Título da vaga <span class="required">*</span></label>
-				<input type="text" name="jobtitle" placeholder="Insira o título da vaga">
+				<label>Nome da Criança <span class="required">*</span></label> <!--adicionando link de html-->
+				<input type="text" name="jobtitle" placeholder="Insira o nome">
 			</div>
 			<div class="input-box">
-				<label>Descrição da vaga <span class="required">*</span></label>
-				<textarea name="description" placeholder="Insira a descrição da vaga"></textarea>
+				<label>Seu endereço <span class="required">*</span></label><!--adicionando link de html-->
+				<textarea name="description" placeholder="Insira o endereço"></textarea>
 			</div>
 			<div class="input-box">
-				<label>Nome da empresa <span class="required">*</span></label>
-				<input type="text" name="company" placeholder="Insira o nome da empresa">
+				<label>Série<span class="required">*</span></label><!--adicionando link de html-->
+				<input type="text" name="company" placeholder="Insira a série">
 			</div>
 			<div class="input-box">
-				<label>Tipo de contratação <span class="required">*</span></label>
+				<label>Tipo de matrícula<span class="required">*</span></label><!--adicionando link de html-->
 				<select name="jobtype">
 					<option value="">Escolha uma opção</option>
-					<option value="pj">PJ</option>
-					<option value="clt">CLT</option>
-					<option value="homeoffice">Home Office</option>
-					<option value="freelancer">Free Lancer</option>
+					<option value="pj">Integral</option>
+					<option value="clt">Matutino</option>
+					<option value="homeoffice">Vespertino</option>
+					<option value="freelancer">Auxílio Creche</option>
 				</select>
 			</div>
 			<div class="input-box">
